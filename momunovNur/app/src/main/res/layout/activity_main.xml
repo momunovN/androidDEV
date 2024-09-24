@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191919"
+    android:outlineSpotShadowColor="#8D3B3B"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="96dp"
+        android:layout_height="93dp"
+        app:srcCompat="@drawable/profile_placeholder_image_1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="224dp"
+        android:layout_height="26dp"
+        android:text="romakazak.0303@gmail.com"
+        android:textColor="#8D8D8D"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="135dp"
+        android:layout_height="42dp"
+        android:text="Your subscriptions are valid until"
+        android:textAlignment="center"
+        android:textColor="#8D8D8D"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25.12.2022"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Profile"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageFilterView"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/user"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="308dp"
+        android:layout_height="53dp"
+        android:background="#E6313131"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:paddingStart="21dp"
+        android:paddingLeft="44dp"
+        android:text="romakazak.0303@gmail.com"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textStyle="bold"
+        app:circularflow_defaultRadius="20dp"
+        app:circularflow_radiusInDP="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="308dp"
+        android:layout_height="53dp"
+        android:background="#E6313131"
+        android:ems="10"
+        android:inputType="phone"
+        android:paddingLeft="21dp"
+        android:text="+79773870756"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="499dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Changes"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="618dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
