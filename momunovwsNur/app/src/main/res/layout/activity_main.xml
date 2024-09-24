@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ПЛАНИРОВАЩИК ЗАДАЧ"
+        android:textSize="24sp"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/app_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="С легкостью планируйте и организуйте свои задачи"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_add_task"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/btn_color"
+            android:text="Добавить Задачу" />
+
+        <Button
+            android:id="@+id/btn_task_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/btn_color"
+            android:text="Лист задач" />
+
+        <Button
+            android:id="@+id/btn_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/btn_color"
+            android:text="Настройки" />
+
+    </LinearLayout>
+
+</LinearLayout>

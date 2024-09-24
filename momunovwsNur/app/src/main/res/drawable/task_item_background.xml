@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <background>
+        <image>
+
+        </image>
+        <color>#87CEEB</color> <!-- sky blue color -->
+        <gradient>
+            <start>#FFC5C5</start> <!-- soft pink color -->
+            <end>#87CEEB</end> <!-- sky blue color -->
+        </gradient>
+    </background>
+</selector>

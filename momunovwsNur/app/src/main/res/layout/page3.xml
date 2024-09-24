@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/header_text_color"
+        android:padding="16dp"
+        android:text="Список" />
+
+    <!-- Task List -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Task Item Template -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/task_item_background"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/task_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/textColorName"
+                    android:hint="Название Задачи"
+                    android:textColor="#719D00"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/task_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background=""
+                    android:hint="Описание задачи"
+                    android:textColor="@color/task_description_text_color"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/task_item_background"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/task_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/textColorName"
+                    android:hint="Название Задачи"
+                    android:textColor="#719D00"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/task_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background=""
+                    android:hint="Описание задачи"
+                    android:textColor="@color/task_description_text_color"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/task_item_background"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/task_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/textColorName"
+                    android:hint="Название Задачи"
+                    android:textColor="#719D00"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/task_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background=""
+                    android:hint="Описание задачи"
+                    android:textColor="@color/task_description_text_color"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="@drawable/task_item_background">
+
+                <TextView
+                    android:id="@+id/task_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/textColorName"
+                    android:hint="Название Задачи"
+                    android:textColor="#719D00"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/task_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:hint="Описание задачи"
+                    android:textColor="@color/task_description_text_color"
+                    android:background=""/>
+
+            </LinearLayout>
+
+            <!-- Add more task items here -->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

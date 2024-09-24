@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="ColornAme">#7D71D8</color>
+    <color name="header_text_color">#E91E63</color>
+    <color name="task_item_background">#C2185B</color>
+    <color name="task_name_text_color">#FF0000</color>
+    <color name="task_description_text_color">#8FB52D</color>
+    <color name="backGround">#AEF100</color>
+    <color name="textColorName">#FFC200</color>
+    <color name="backColor">#2A17B1</color>
+    <color name="btn_color">#A67E00</color>
+</resources>
