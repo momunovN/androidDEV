@@ -13,6 +13,12 @@
         android:theme="@style/Theme.My_tesk_3_4"
         tools:targetApi="31">
         <activity
+            android:name=".ResultActivityy"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
             android:name=".RecipeActivity"
             android:exported="false" />
         <activity
