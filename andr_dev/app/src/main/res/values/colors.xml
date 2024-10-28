@@ -8,4 +8,5 @@
     <color name="border_color_email">#CECECE</color>
     <color name="background_color_email">#30C4C4C4</color>
     <color name="link_color">#FFB800</color>
+    <color name="yellow">#FFB800</color>
 </resources>
